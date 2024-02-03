@@ -9,6 +9,7 @@ import { ParentOne } from "./components/Optimization/ParentOne.jsx";
 import { ChildOne } from "./components/Optimization/ChildOne.jsx";
 import { GrandParent } from "./components/Optimization/GrandParent.jsx";
 import { ParentTwo } from "./components/Optimization/ParentTwo.jsx";
+import { ParentThree } from "./components/Optimization/ParentThree.jsx";
 
 function App() {
   return (
@@ -21,8 +22,9 @@ function App() {
       <ParentOne>
         <ChildOne />
       </ParentOne>
-      <GrandParent /> */}
-      <ParentTwo />
+      <GrandParent />
+      <ParentTwo /> */}
+      <ParentThree />
     </>
   );
 }

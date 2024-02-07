@@ -12,6 +12,7 @@ import { ParentTwo } from "./components/Optimization/ParentTwo.jsx";
 import { ParentThree } from "./components/Incorrect Optimizations/ParentThree.jsx";
 import { ParentFour } from './components/Incorrect Optimizations/ParentFour.jsx'
 import { ContextParent } from './components/Context/ContextParent.jsx'
+import { ChildA } from "./components/Context/ContextChildren.jsx";
 
 function App() {
   return (
@@ -28,7 +29,9 @@ function App() {
       <ParentTwo /> 
       <ParentThree />
       <ParentFour /> */}
-      <ContextParent />
+      <ContextParent>
+        <ChildA />
+      </ContextParent>
     </>
   );
 }
